@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          jekyll test
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/jekyll-test"
 url:            "https://koda-masaru.github.io"
@@ -9,9 +9,9 @@ url:            "https://koda-masaru.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Koda
+  url:          https://koda-masaru.github.io
+  email:        example@example.com
 
 # Build settings
 markdown:       kramdown
