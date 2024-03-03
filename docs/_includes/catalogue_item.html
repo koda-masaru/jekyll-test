@@ -6,7 +6,7 @@
     <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
 
     {% for tag in post.tags %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></li>
+    <a href="/{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
     {% endfor %}
 
     <h1 class="catalogue-title">{{ post.title }}</h1>

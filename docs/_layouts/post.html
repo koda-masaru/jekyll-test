@@ -17,7 +17,7 @@ layout: default
     {% endif %}
 
     {% for tag in page.tags %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></li>
+    <li><a href="/{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
     
   </div>
