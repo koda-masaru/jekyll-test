@@ -5,7 +5,7 @@ baseurl:        "/jekyll-test"
 url:            "https://koda-masaru.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+#google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
