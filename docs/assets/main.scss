@@ -2,4 +2,66 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import 'tale';
+@import "tale";
+
+$font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+footer {
+  font-family: $font-family;
+}
+
+.post-info {
+  font-family: $font-family;
+}
+
+.post-title {
+  font-family: $font-family;
+}
+
+.post img + em {
+  font-family: $font-family;
+}
+
+.nav a {
+  font-family: $font-family;
+}
+
+.pagination {
+  font-family: $font-family;
+}
+
+.pagination .top {
+  font-family: $font-family;
+}
+
+.catalogue-pinned {
+  font-family: $font-family;
+}
+
+.catalogue-time {
+  font-family: $font-family;
+}
+
+.catalogue-title {
+  font-family: $font-family;
+}
+
+.tags-header-title {
+  font-family: $font-family;
+}
+
+.tags-clouds {
+  font-family: $font-family;
+}
+
+.tags-item-label {
+  font-family: $font-family;
+}
